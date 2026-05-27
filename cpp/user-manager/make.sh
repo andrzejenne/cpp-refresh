@@ -1,0 +1,1 @@
+g++ -std=c++23 -Wall -Wextra -Wpedantic user-manager.cpp -o app
