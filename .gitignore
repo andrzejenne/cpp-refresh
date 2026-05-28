@@ -1,2 +1,13 @@
-examples
+examples/
 
+# Local/generated course content
+**/assets/
+**/fonts/
+**/build/
+**/.qtcreator/
+qt/*/.gitignore
+
+# Qt Creator user files
+*.pro.user*
+*.qbs.user*
+CMakeLists.txt.user*
