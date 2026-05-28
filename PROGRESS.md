@@ -20,3 +20,8 @@
 
 * [Creating Qt Quick User Interfaces](https://academy.qt.io/content-details/94276/1)
   * [Introduction to QML](https://academy.qt.io/content-details/324551476/2)
+  * [Positioners and Layouts](https://academy.qt.io/content-details/324676263/2)
+
+## 28.05.2026
+* [Creating Qt Quick User Interfaces](https://academy.qt.io/content-details/94276/1)
+  * [Qt Quick and Custom Components](https://academy.qt.io/content-details/324829995/2)
