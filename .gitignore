@@ -1,13 +1,79 @@
-examples/
+# Build directories and CMake-generated files
+/build*/
+**/build*/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/CTestTestfile.cmake
+**/compile_commands.json
+**/Makefile
+**/install_manifest.txt
+**/Testing/
 
-# Local/generated course content
-**/assets/
-**/fonts/
-**/build/
+# Qt build output and generated sources
+**/*_autogen/
+**/.qmake.cache
+**/.qmake.stash
 **/.qtcreator/
-qt/*/.gitignore
-
-# Qt Creator user files
+**/.qt/
+**/.rcc/
+**/.qmlls.ini
+**/meta_types/
+**/qmltypes/
+**/*_qmltyperegistrations.cpp
 *.pro.user*
 *.qbs.user*
 CMakeLists.txt.user*
+
+# Compiled objects, libraries, and executables
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.dSYM/
+
+# IDE and editor-local settings
+.vscode/
+.idea/
+.codelite/
+.ctagsd/
+*.workspace
+*.tags
+tags
+
+# Temporary and operating-system files
+*~
+*.autosave
+*.swp
+*.swo
+*.orig
+*.rej
+.#*
+*.*#
+.DS_Store
+Thumbs.db
+core
+core.*
+
+# Locally downloaded tutorial assets
+examples/
+**/assets/
+**/fonts/
+
+# CodeLite-generated build files and in-source course executables
+cpp/**/*.mk
+cpp/**/main
+qt/**/appWeather
+
+# Generated QML module directory from the in-source Weather sample build
+qt/Cpp20Qt6SolidKissVibeTest/Weather/
+
+# Per-project copies of the legacy Qt ignore template
+qt/*/.gitignore
